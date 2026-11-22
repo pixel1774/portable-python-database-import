@@ -440,22 +440,6 @@ The administrator password file is created using:
 
 Existing administrator codes are preserved and are not overwritten.
 
-# TESTING
-
-The project includes standalone test scripts for checking the database features.
-
-If you downloaded the source code and have the original test runner, run:
-
-    python main.py
-
-If you installed the wheel, you can create and run the separate test script:
-
-    python test_database.py
-
-The tests use the actual native DLL implementation through the Python wrapper.
-
-They do not use mocked database functions or require pytest.
-
 ### FEATURES TESTED
 
 1. Administrator password file creation.
@@ -482,10 +466,8 @@ They do not use mocked database functions or require pytest.
 
     Passed: 19
     Failed: 0
-    Total:  19
-
-    ALL TESTS PASSED!
-
+    Total:  1
+    
 The installed wheel package has successfully passed all 19 feature tests.
 
 # IMPORTANT NOTES
